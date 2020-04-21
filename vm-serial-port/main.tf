@@ -27,7 +27,7 @@ resource "google_compute_instance" "default" {
   }
 
   metadata = {
-    foo = "bar"
+    foo = "bars"
   }
 
   metadata_startup_script = "echo hi > /test.txt"
